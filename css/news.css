@@ -1,0 +1,131 @@
+.news {
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.news__block {
+    font-size: 20px;
+    margin-bottom: 35px;
+    border: 1px solid lightgrey;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 12px -2px #506c6c;
+}
+
+.news__date {
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+h3 {
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-family: math;
+}
+
+a.more {
+    display: inline-block;
+    color: #3b6e72;
+    margin: 35px 0 16px 0;
+    border-bottom: 2px dashed #bba1af;
+    padding-bottom: 3px;
+    font-weight: 600;
+    margin-left: 77%;
+}
+
+.news__block div {
+    line-height: 1.5em;
+    height: 90px;
+    overflow: hidden;
+    padding-right: 70px;
+}
+
+.news__text {
+    max-height: 100px;
+    overflow: hidden;
+}
+
+
+
+
+/* ------------------------------------------------------------------ */
+/* ------------------------------------------------------------------ */
+/*                              MEDIA                                 */
+/* ------------------------------------------------------------------ */
+/* ------------------------------------------------------------------ */
+
+
+
+
+@media (max-width: 950px) {
+    a.more {
+        margin-left: 73%;
+    }
+}
+
+@media (max-width: 800px) {
+    a.more {
+        margin-left: 69%;
+    }
+
+    h2 {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 700px) {
+    a.more {
+        margin-left: 65%;
+    }
+}
+
+@media (max-width: 650px) {
+    a.more {
+        margin-left: 0%;
+    }
+
+    .news__text {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    h3 {
+        font-size: 31px;
+    }
+
+    .news__date {
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 550px) {
+    h3 {
+        font-size: 29px;
+        margin-bottom: 15px;
+    }
+    
+    .main__nav {
+        display: none;
+    }
+
+    .news__text {
+        font-size: 16px;
+        max-height: 75px;
+    }
+
+    a.more {
+        display: flex;
+        margin: 10px auto;
+        inline-size: max-content;
+    }
+    
+}

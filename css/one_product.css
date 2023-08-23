@@ -1,0 +1,375 @@
+.product__desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 40px 0px;
+}
+
+.size__wrap {
+    display: flex;
+}
+
+.size__box {
+    padding: 9px 7px;
+    font-size: 22px;
+    border: 2px solid;
+    margin: 20px 0;
+    margin-right: 10px;
+    width: 27px;
+    text-align: center;
+}
+
+.product__price {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    color: #998E78;
+}
+
+.shop__product {
+    margin-bottom: 0;
+    width: 40%;
+    margin-right: 85px;
+}
+
+.shop__product img {
+    width: 100%;
+}
+
+.prod__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.selected__size {
+    background-color: #1d1d1d;
+    color: white;
+    border: 2px solid #1d1d1d;
+}
+
+
+/* ------ RADIO BUTTONS ------- */
+
+.size__wrap,
+.color__wrap {
+    display: flex;
+    margin-top: 65px;
+}
+
+.form_radio input[type=radio],
+.size_radio input[type=radio] {
+    display: none;
+}
+
+.form_radio label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 0;
+    line-height: 18px;
+    user-select: none;
+    margin-right: 35px;
+}
+
+.size_radio label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 0;
+    line-height: 18px;
+    user-select: none;
+    margin-right: 35px;
+}
+
+.form_radio label:before {
+    content: "";
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 44px;
+    color: white;
+}
+
+.size_radio label:before {
+    content: "";
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    text-align: center;
+    line-height: 44px;
+    color: white;
+    border: 2px solid rgb(117, 117, 117);
+}
+
+.size_radio label:before {
+    content: "";
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.size_radio .size-1:before {
+    content: "XS";
+}
+
+.size_radio .size-2:before {
+    content: "S";
+}
+
+.size_radio .size-3:before {
+    content: "M";
+}
+
+.size_radio .size-4:before {
+    content: "L";
+}
+
+.size_radio .size-5:before {
+    content: "XL";
+}
+
+.form_radio label:before {
+    background-color: rgb(32, 32, 32);
+}
+
+.form_radio .radio-1:before {
+    background-color: #927876;
+    border: 2px solid #927876;
+}
+
+.form_radio .radio-2:before {
+    background-color: #D4D4D4;
+    border: 2px solid #D4D4D4;
+}
+
+.form_radio .radio-3:before {
+    background-color: #FD9696;
+    border: 2px solid #FD9696;
+}
+
+.form_radio .radio-4:before {
+    background-color: #FDC796;
+    border: 2px solid #FDC796;
+}
+
+.form_radio input[class=color]:checked+label:before {
+    border: 2px solid rgb(87, 87, 87);
+    content: "\2714";
+    font-size: 25px;
+}
+
+.size_radio input[class=size]:checked+label:before {
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+
+/* ----------------------------------------- */
+
+.product__buy {
+    display: flex;
+}
+
+.product__buy button {
+    padding: 0;
+    border-radius: 0px;
+    background: #6E9C9F;
+    width: 250px;
+    height: 68px;
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+    cursor: pointer;
+}
+
+.product__buy button:hover {
+    background: #4d7e82;
+}
+
+.product__numb {
+    height: 64px;
+    width: 64px;
+    padding: 0;
+    border-radius: 0;
+    margin-right: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#raz {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    border: 2px solid rgb(184, 184, 184);
+}
+
+#raz input {
+    padding-right: 18px;
+    width: 48px;
+    height: 60px;
+    font-size: 26px;
+    text-align: center;
+    border: none;
+}
+
+#raz input::-webkit-inner-spin-button {
+    display: none;
+}
+
+#raz span {
+    position: absolute;
+}
+
+@supports (clip-path: polygon(50% 30%, 10% 90%, 90% 90%)) {
+    #raz span {
+        right: 0;
+        width: 19px;
+        height: 55%;
+        background: #7ba7aa6c;
+        cursor: pointer;
+    }
+
+    #raz span:hover {
+        background: #5c8a8d;
+    }
+
+
+    #raz span:nth-of-type(1) {
+        top: -5px;
+        clip-path: polygon(50% 30%, 10% 90%, 90% 90%);
+        margin-right: 3px;
+    }
+
+    #raz span:nth-of-type(2) {
+        bottom: -5px;
+        clip-path: polygon(50% 70%, 10% 10%, 90% 10%);
+        margin-right: 3px;
+    }
+}
+
+.shop__product:hover img {
+    scale: 1;
+    filter: none;
+}
+
+.shop__product:hover {
+    margin-bottom: 0;
+}
+
+.one__product {
+    margin-bottom: 90px;
+    display: flex;
+}
+
+
+
+
+/* ------------------------------------------------------------------ */
+/* ------------------------------------------------------------------ */
+/*                              MEDIA                                 */
+/* ------------------------------------------------------------------ */
+/* ------------------------------------------------------------------ */
+
+
+
+
+@media (max-width: 1000px) {
+    .shop__product {
+        width: 50%;
+    }
+}
+
+@media (max-width: 900px) {
+    .shop__product {
+        margin-right: 5vw;
+    }
+
+    .product__price {
+        font-size: 4.5vw;
+    }
+
+    .prod__title {
+        font-size: 18px;
+        line-height: 170%;
+    }
+
+    .size__wrap,
+    .color__wrap {
+        margin-top: 50px;
+    }
+
+    .size_radio label:before {
+        width: 42px;
+        height: 42px;
+    }
+
+    .size_radio label:before {
+        font-size: 22px;
+    }
+
+    .product__buy {
+        margin-top: 20px;
+    }
+
+    #raz input {
+        padding-right: 17px;
+        width: 44px;
+        font-size: 25px;
+        height: 50px;
+    }
+
+    .product__buy button {
+        width: 215px;
+        height: 56px;
+    }
+}
+
+@media (max-width: 700px) {
+    .one__product {
+        display: block;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .shop__product {
+        width: 80%;
+        margin: auto;
+    }
+
+    .product__desc {
+        align-items: center;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .prod__title {
+        font-size: 18px;
+        line-height: 100%;
+        margin-top: 30px;
+    }
+
+    .product__buy {
+        margin-top: 35px;
+    }
+    .one__product {
+        margin-bottom: 60px;
+    }
+}

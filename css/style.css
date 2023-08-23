@@ -1,0 +1,1052 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700&display=swap');
+
+body {
+    background: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo_link {
+    display: flex;
+    align-items: center;
+}
+
+.prime {
+    position: relative;
+    overflow: hidden;
+}
+
+a {
+    color: black;
+}
+
+.market_link {
+    color: white;
+}
+
+.container {
+    margin: auto;
+    width: 1100px;
+    min-height: 67vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.logo p {
+    display: flex;
+    align-self: center;
+}
+
+.logo img {
+    margin-right: 14px;
+}
+
+.nav a {
+    margin-right: 32px;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.nav_right {
+    display: flex;
+}
+
+.phone {
+    display: flex;
+    width: 100%;
+}
+
+.phone a {
+    display: flex;
+    align-self: center;
+    width: 150%;
+    margin-left: 15px;
+}
+
+.nav_basket {
+    margin-left: 67px;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+.present {
+    display: flex;
+    height: 50vw;
+}
+
+.present__main {
+    width: 48%;
+    align-self: center;
+}
+
+.present__main h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 53px;
+    line-height: 110%;
+}
+
+.present__main p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 140%;
+    width: 68%;
+    text-align: right;
+}
+
+.present__images {
+    background: #F1EADC;
+    position: absolute;
+    height: 55vw;
+    width: 42%;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.present__images img {
+    position: absolute;
+    right: -30px;
+    top: 12%;
+    width: 99%;
+}
+
+.present__btn {
+    width: 68%;
+    text-align: right;
+}
+
+.wrap__btn {
+    width: 20%;
+    margin-left: 15px;
+}
+
+.present__btn img {
+    width: 65%;
+
+}
+
+.present__btn button {
+    padding: 0;
+    border-radius: 0px;
+    background: #6E9C9F;
+    width: 300px;
+    height: 68px;
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 50px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    transition-property: background;
+    transition-duration: 0.5s;
+}
+
+.present__btn__text {
+    width: 100%;
+    text-align: -webkit-center;
+}
+
+.present__btn button:hover {
+    background: #3b6e72;
+    transition-property: background;
+    transition-duration: 1s;
+}
+
+.arrow {
+    transition: 0.6s;
+}
+
+.present__btn button:hover .arrow {
+    margin-top: 7px;
+    transition: 0.4s;
+}
+
+.nav a:hover,
+.footer li:hover,
+.shop a:hover,
+.blog a:hover,
+.products a:hover {
+    color: #6E9C9F;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+.shop {
+    text-align: center;
+}
+
+.shop h2 {
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+
+.shop_products {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.shop__product__main {
+    margin-right: 0px;
+    width: 29%;
+}
+
+.shop__product__main img {
+    width: 99%;
+}
+
+.shop__product__desc {
+    margin-top: 20px;
+}
+
+.shop__main {
+    margin-top: 2.5vw;
+    justify-content: center !important;
+}
+
+.shop__btn button {
+    border-radius: 0px;
+    background: #ffffff;
+    width: 253px;
+    height: 68px;
+    border: 2px solid #6E9C9F;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 50px;
+    cursor: pointer;
+    color: #6E9C9F;
+}
+
+.shop__btn button:hover {
+    background: #4d7e82;
+    color: white;
+}
+
+.info,
+.team {
+    margin-top: 120px;
+}
+
+.info {
+    text-align: center;
+}
+
+.info__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__card {
+    width: 25%;
+}
+
+.info__card img {
+    margin-bottom: 29px;
+}
+
+.info__card__title {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 140%;
+    margin-bottom: 22px;
+}
+
+.info__card__subtitle {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+}
+
+/* -------------------------------------------------------------------------------- */
+.team {
+    margin-bottom: 100px;
+}
+
+.team__block {
+    display: flex;
+}
+
+.team__img {
+    margin-right: 110px;
+}
+
+.team__text {
+    width: 20%;
+    align-self: center;
+}
+
+.team__text a {
+    color: #6E9C9F;
+}
+
+.team__text__title {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 140%;
+    margin-bottom: 15px;
+}
+
+.team__text__subtitle {
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+.footer {
+    padding-top: 60px;
+    background: #F1EADC;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+}
+
+.footer__head,
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: auto;
+    align-items: start;
+}
+
+.footer__info {
+    justify-content: start;
+}
+
+.footer .nav_right {
+    display: flex;
+    flex-flow: column;
+    align-items: end;
+}
+
+.footer .phone a {
+    justify-content: right;
+}
+
+.email {
+    margin-top: 15px;
+}
+
+.social {
+    margin-top: 25px;
+}
+
+.social img {
+    margin-left: 8px;
+}
+
+.products,
+.copyright {
+    display: flex;
+    flex-flow: column;
+}
+
+.copyright {
+    margin-top: -115px;
+}
+
+.products a {
+    margin-bottom: 13px;
+    margin-right: 0;
+}
+
+.copyright a {
+    margin-top: 18px;
+    font-size: 13px;
+}
+
+.products {
+    margin-left: 0;
+    margin-top: 50px;
+}
+
+
+/* ---------------- BURGER --------------- */
+
+#menu__toggle {
+    opacity: 0;
+}
+
+#menu__toggle:checked~.menu__btn>span {
+    transform: rotate(45deg);
+}
+
+#menu__toggle:checked~.menu__btn>span::before {
+    top: 0;
+    transform: rotate(0);
+}
+
+#menu__toggle:checked~.menu__btn>span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+#menu__toggle:checked~.menu__box {
+    visibility: visible;
+    right: 0;
+}
+
+#menu__toggle:checked~.menu__btn {
+    position: fixed;
+}
+
+.menu__btn {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 20px;
+
+    width: 30px;
+    height: 26px;
+
+    cursor: pointer;
+    z-index: 3;
+}
+
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
+    display: block;
+    position: absolute;
+
+    width: 100%;
+    height: 2px;
+
+    background-color: #363636;
+
+    transition-duration: .4s;
+}
+
+.menu__btn>span::before {
+    content: '';
+    top: -8px;
+}
+
+.menu__btn>span::after {
+    content: '';
+    top: 8px;
+}
+
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    width: 230px;
+    max-height: 240px;
+    z-index: 2;
+    margin: 0;
+    padding: 60px 0;
+    list-style: none;
+    background-color: #357a81;
+    box-shadow: 1px 1px 0px 600px rgb(58 58 58 / 72%), -5px 5px 20px 1px black;
+    border-radius: 0 0 0 30px;
+}
+
+.menu__item {
+    display: block;
+    padding: 13px 40px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+
+    text-decoration: none;
+}
+
+.menu__item a {
+    color: #ffffff;
+}
+
+.menu__item:hover {
+    background-color: #CFD8DC;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+
+/* ------------------------------------------------------------------ */
+/* ------------------------------------------------------------------ */
+/*                              MEDIA                                 */
+/* ------------------------------------------------------------------ */
+/* ------------------------------------------------------------------ */
+
+
+
+
+@media (max-width: 1200px) {
+    .container {
+        width: 90vw;
+    }
+
+    .shop {
+        width: 100%;
+    }
+
+    .shop__product__main {
+        width: 24vw;
+    }
+
+    .shop__product__main img {
+        width: 100%;
+    }
+
+    .shop_products {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .team__img {
+        margin-right: 60px;
+    }
+
+    .footer__head,
+    .footer__info {
+        width: 90vw;
+    }
+
+    .present__main h1 {
+        font-size: 3.5vw;
+    }
+
+    .present__main {
+        width: 48%;
+        align-self: center;
+        height: 65%;
+        display: flex;
+        flex-direction: column;
+        margin-top: -5vw;
+        justify-content: space-evenly;
+    }
+
+    .present__btn button {
+        margin-top: 0;
+    }
+
+    .present__images img {
+        top: 8vw;
+    }
+
+    .present__images {
+        height: 57vw;
+    }
+
+    .nav_basket {
+        margin-left: 35px;
+    }
+
+    .nav a {
+        margin-right: 22px;
+    }
+
+    .team__img {
+        width: 65%;
+    }
+
+    .img__team {
+        width: 100%;
+    }
+
+    .team__text {
+        width: 25%;
+    }
+
+    .products a {
+        margin-bottom: 13px;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .phone a {
+        display: none;
+    }
+
+    .phone img {
+        width: 26px;
+    }
+
+    .nav_right {
+        width: 8%;
+    }
+
+    .nav__footer {
+        width: 18%;
+    }
+
+    .nav_basket {
+        margin-left: 15px;
+    }
+
+    .info__card__title {
+        font-size: 3vw;
+    }
+
+    .info__cards {
+        width: 95%;
+        margin: auto;
+    }
+
+    .present__main p {
+        font-size: 1.9vw;
+    }
+
+    .present__btn button {
+        width: 99%;
+    }
+}
+
+@media (max-width: 900px) {
+    .present__images {
+        width: 50%;
+    }
+
+    .present__images img {
+        top: 11vw;
+    }
+
+    .info {
+        margin-top: 10vw;
+    }
+
+    .shop__main {
+        margin-top: 15vw;
+    }
+
+    .present__images {
+        height: 70vw;
+    }
+
+    p.main__btn__text {
+        width: 75%;
+    }
+
+    .info__card {
+        width: 85%;
+        margin: auto;
+        margin-bottom: 10%;
+    }
+
+    .info__cards {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info__card img {
+        margin-bottom: 1%;
+    }
+
+    .info__card__title {
+        margin-bottom: 2%;
+        font-size: 4vw;
+    }
+
+    .footer__head,
+    .footer__info {
+        width: 95vw;
+    }
+
+    .footer .logo {
+        font-size: 15px;
+        margin-right: 5vw;
+    }
+
+    .footer .nav_right {
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 800px) {
+    .team {
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+
+    .present__main h1 {
+        width: 100%;
+        z-index: 1;
+    }
+
+    .team__block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team h2 {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .team__img {
+        width: 80%;
+        margin: auto;
+    }
+
+    .team__text {
+        width: 80%;
+    }
+
+    .nav_basket {
+        margin-left: 5px;
+    }
+
+    .main__nav a {
+        margin-right: 20px;
+        font-size: 19px;
+    }
+
+    nav {
+        padding: 20px 0;
+    }
+
+    .main__nav {
+        display: flex;
+        position: absolute;
+        top: 80px;
+        width: 92%;
+        justify-content: space-between;
+    }
+
+    .phone {
+        display: flex;
+    }
+
+    .nav_right {
+        width: 10%;
+    }
+
+    .present {
+        margin-top: 15%;
+    }
+
+    .present__images img {
+        top: 25%;
+    }
+
+    .present__images {
+        height: 80vw;
+    }
+
+    .present__main {
+        height: 100%;
+        width: 66%;
+    }
+
+    .logo a {
+        font-size: 21px;
+    }
+
+    .present__main h1 {
+        font-size: 35px;
+        width: 85%;
+    }
+
+    .present__main p {
+        font-size: 19px;
+    }
+
+    .footer .nav_right {
+        margin-top: 120px;
+        margin-left: -100px;
+        width: 20%;
+    }
+}
+
+@media (max-width: 700px) {
+    .footer {
+        height: auto;
+        padding-top: 40px;
+    }
+
+    .footer .nav_right {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        margin-left: -140px;
+        width: 23%;
+    }
+
+    .products {
+        display: none;
+    }
+
+    .copyright {
+        margin-top: -135px;
+    }
+}
+
+@media (max-width: 670px) {
+    .prime {
+        position: relative;
+    }
+
+    .present {
+        flex-direction: column-reverse;
+        margin-top: 10%;
+        text-align: center;
+        height: inherit;
+    }
+
+    .present__images {
+        position: inherit;
+        background: rgba(255, 255, 255, 0);
+        width: 100%;
+        z-index: 1;
+    }
+
+    .present__main {
+        width: 100%;
+        height: 300px;
+        margin-top: 20vw;
+    }
+
+    .present__main h1 {
+        width: 100%;
+    }
+
+    .present__main p {
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .present__btn {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .present__images img {
+        position: inherit;
+        width: 100%;
+    }
+
+    .triangle {
+        position: absolute;
+        border: 346px solid #4f2cd900;
+        border-left: 467px solid #F1EADC;
+        border-top: 266px solid #F1EADC;
+        top: 0;
+    }
+
+    .logo,
+    .nav_right {
+        z-index: 1;
+    }
+
+    .main__nav a {
+        margin-right: 18px;
+        font-size: 2.7vw;
+    }
+
+    .shop__product__main {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 10vw;
+    }
+
+    .shop_products {
+        flex-direction: column;
+    }
+
+    .shop__btn button {
+        margin-top: 5px;
+    }
+
+    .team__text {
+        width: 96%;
+    }
+
+    .team__img {
+        width: 100%;
+    }
+
+    .phone a {
+        display: none;
+    }
+
+    .nav_right {
+        width: 12%;
+    }
+
+    .present {
+        margin-top: 15%;
+    }
+
+    .team h2 {
+        font-size: 30px;
+    }
+
+    .info__card__title {
+        font-size: 5vw;
+    }
+
+    .footer {
+        padding-top: 25px;
+    }
+
+    .footer .nav {
+        margin-top: 50px;
+        margin-left: -180px;
+    }
+
+    .footer .nav a {
+        font-size: 18px;
+    }
+
+    .footer .nav_right {
+        margin-top: 115px;
+        margin-left: -180px;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer .nav_right {
+        width: 30%;
+    }
+
+    .footer .nav_right {
+        margin-left: -215px;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .hamburger-menu {
+        display: block;
+        margin-top: -65px;
+        margin-left: 94%;
+    }
+
+    .hamburger-menu #menu__toggle:checked {
+        margin-top: 29px;
+    }
+
+    .main__nav {
+        display: none;
+    }
+
+    .nav li {
+        margin-bottom: 6vw;
+    }
+
+    .present__images {
+        width: 100%;
+    }
+
+    .present__images img {
+        width: 100%;
+    }
+
+    .present {
+        margin-top: 16%;
+    }
+
+    .nav_right {
+        width: 12%;
+        margin-right: 15%;
+    }
+
+    .present__main h1 {
+        font-size: 32px;
+    }
+
+    .info__card__title {
+        font-size: 25px;
+    }
+
+    .nav a {
+        font-size: 4vw;
+    }
+
+    .present__btn {
+        width: 253px;
+    }
+
+    .team {
+        margin-top: 30px;
+    }
+
+    .footer .nav {
+        display: none;
+    }
+
+    .footer .nav_right {
+        margin-top: 35px;
+    }
+
+    .copyright {
+        margin-top: -130px;
+    }
+
+    h2 {
+        margin-top: 30px !important;
+        text-align: center;
+    }
+}
+
+@media (max-width: 460px) {
+    .footer {
+        padding-bottom: 30px;
+    }
+
+    .footer .nav_right {
+        margin-top: 30px;
+        margin-left: 0;
+        width: 100%;
+        align-items: center;
+    }
+
+    .footer__head {
+        display: block;
+    }
+
+    .copyright {
+        margin-top: -5px;
+        text-align: center;
+    }
+
+    .footer__info {
+        justify-content: center;
+    }
+
+    .footer .logo {
+        font-size: 35px;
+        margin-right: 0;
+        justify-content: center;
+    }
+}

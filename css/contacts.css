@@ -1,0 +1,176 @@
+h2 {
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.commun-title {
+    text-align: center;
+}
+
+.communication {
+    margin: 130px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.communication h3 {
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+form {
+    margin: auto;
+    width: 55%;
+    margin-top: 55px;
+    margin-bottom: 100px;
+}
+
+.form-group input,
+.form-group textarea {
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 20px;
+    width: 100%;
+    border: 0;
+    box-shadow: 2px 2px 3px 2px rgb(118 118 118 / 66%);
+    margin-bottom: 35px;
+    color: rgb(29, 29, 29);
+    font-family: inherit;
+    font-weight: 500;
+    outline: none;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+input:focus,
+textarea:focus {
+    outline: thick double #6E9C9F;
+}
+
+.button {
+    display: block;
+    margin-top: 5px;
+    background-color: #507679;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    width: 30%;
+    text-align: center;
+    cursor: pointer;
+    border: thick double #507679;
+}
+
+.button:hover {
+    background: white;
+    border: thick double #507679;
+    color: #507679;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------ */
+/* ------------------------------------------------------------------ */
+/*                              MEDIA                                 */
+/* ------------------------------------------------------------------ */
+/* ------------------------------------------------------------------ */
+
+
+
+
+@media (max-width: 1200px) {
+    iframe {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .button {
+        padding: 14px;
+    }
+
+    form {
+        width: 65%;
+    }
+}
+
+
+@media (max-width: 800px) {
+    h2 {
+        margin-top: 80px;
+    }
+
+    .communication {
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .communication__address {
+        width: 34%;
+    }
+
+    .communication__phone {
+        width: 30%;
+    }
+}
+
+@media (max-width: 700px) {
+    form {
+        width: 80%;
+    }
+}
+
+@media (max-width: 650px) {
+    .communication {
+        text-align: center;
+        flex-direction: column;
+        margin: 40px 0;
+    }
+
+    .communication__phone,
+    .communication__address,
+    .communication__email {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .button {
+        margin: auto;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .main__nav {
+        display: none;
+    }
+
+    form {
+        width: 94%;
+    }
+
+    .form-group {
+        width: 94%;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .button {
+        width: 50%;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .form-group {
+        width: 92%;
+    }
+}
